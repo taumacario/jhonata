@@ -1,13 +1,10 @@
 import styled from "styled-components";
+import { CardStyle } from "../Card/styles";
 
 export const Wrapper = styled.section`
-  //border-top: 1px solid border #7B4AE233;
-  //border-bottom: 1px solid border #7B4AE233;
-  margin-top: 15rem;
+  margin-block: 9rem 6rem;
   padding-block: 10rem;
   position: relative;
-
-  margin-bottom: 10rem;
 
   &::before{
     border-top: 1px solid #7B4AE233;
@@ -26,13 +23,59 @@ export const Wrapper = styled.section`
     content: '';
     position: absolute;
   }
-  
 `
 
-export const BoxOutline = styled.div`
+export const Content = styled.div`
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+`
+export const BoxOne = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  width: 100%;
+
+  ${CardStyle} {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  p{
+    color: var(--white);
+    font-weight: 600;
+    font-size: 2rem;
+  }
+`
+
+export const BoxTwo = styled.div`
+  margin-top: 3rem;
 
 `
 
-export const BoxFilled = styled.div`
+export const TextBoxTwo = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15rem;
+  //justify-content: space-between;
+`
 
+export const TextContent = styled.div`
+  color: var(--purple);
+  text-align: center;
+
+  span {
+    font-size: 1.4rem;
+  }
+
+  p{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
 `

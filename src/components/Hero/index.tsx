@@ -24,7 +24,7 @@ export function Hero () {
           <InnerText>
             <h1>Jônatan IN</h1>
             <p>{hero?.description}</p>
-            <Button title={'Saiba mais'}/>
+            <Button a link="https://pt-br.facebook.com/" title={'Saiba mais'} />
           </InnerText>
 
           <Image>

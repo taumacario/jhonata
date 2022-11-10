@@ -4,7 +4,8 @@ import styled from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   :root {
     font-size: 10px;
-    --background: #090E16;
+    --background-dark: #090E16;
+    --background: #1c1232;
 
     --purple: #7B4AE2;
     --purple-50: #7B4AE280;

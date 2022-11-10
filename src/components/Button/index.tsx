@@ -1,18 +1,18 @@
-import { ReactNode } from "react";
-import { ButtonDefault } from "./styles";
+import { ReactNode, ButtonHTMLAttributes } from "react";
+import * as S from "./styles";
 
-interface ButtonProps {
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   icon?:ReactNode;
   title?: string;
+  a?: boolean;
+  link?: string;
 }
 
-export function Button({icon, title}: ButtonProps) {
+export function Button ({ icon, title, a, link }: ButtonProps) {
   return(
-    <ButtonDefault>
-      <a href="https://pt-br.facebook.com/">
-        {icon}
-        {title}
-      </a>
-    </ButtonDefault>
+    <S.Button as={a ? "a" : ''} href={link}>
+      {icon}
+      {title}
+    </S.Button>
   );
 }

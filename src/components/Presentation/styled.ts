@@ -9,13 +9,12 @@ export const Content = styled.div`
   gap: 6rem;
   align-items: center;
   justify-content: center;
-  padding-block: 5rem;
+  padding-block: 6rem;
 `
 
 export const InnerText = styled.div`
   h3 {
-    max-width: 50rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 `
 
