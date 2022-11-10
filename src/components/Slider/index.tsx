@@ -9,8 +9,7 @@ import { Header, Title, Wrapper } from './style';
 
 import { Card } from "../Card";
 import { DepoCard } from "../DepoCard";
-import { SwiperButtons } from '../SwiperButtons';
-import { useState } from 'react';
+import { TitleSection } from '../TitleSections';
 
 
 
@@ -29,32 +28,13 @@ interface SliderProps {
 
 
 export function Slider( { title, depositions, settings }: SliderProps) {
-  // const [activePrev, setActivePrev] = useState(false);
-  // const [activeNext, setActiveNext] = useState(false);
-  // activePrev={activePrev} activeNext={activeNext}
-
- 
-  // function x() {
-  //   console.log('inicio')
-  //   //setActivePrev(true)
-  // }
-  // function xx() {
-  //   console.log('final')
-  //   //setActiveNext(true)
-  // }
 
   return (
-    <Wrapper>
-      <Swiper 
-        modules={[Navigation, A11y]}
-        //onReachBeginning={}
-        //onReachEnd={}
-        {...settings} 
-      >
-        <Header>
-          <Title>{title}</Title>
-          {/* <SwiperButtons /> */}
-        </Header>
+    <Wrapper>  
+      <Swiper modules={[Navigation, A11y]} {...settings} >
+        <Header> 
+          <TitleSection alignCenter={false} title='Depoimentos' />
+        </Header> 
         
         {depositions.map(item => {
           return (

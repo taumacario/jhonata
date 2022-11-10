@@ -27,5 +27,4 @@ export const ProfileJob = styled.p`
   margin-top: 0.5rem;
   color: var(--purple-50);
   font-weight: 600;
-
 `

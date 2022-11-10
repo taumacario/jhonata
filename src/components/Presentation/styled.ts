@@ -13,7 +13,7 @@ export const Content = styled.div`
 `
 
 export const InnerText = styled.div`
-  h3 {
+  h4 {
     font-size: 2.2rem;
   }
 `

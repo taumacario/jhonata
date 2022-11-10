@@ -6,7 +6,7 @@ import { Slider } from "../Slider";
 
 import { useEffect, useState } from "react";
 import { api } from "../../services/api";
-import { ButtonNext, ButtonPrev } from "../SwiperButtons/styles";
+import { TitleSection } from "../TitleSections";
 
 interface DepoCard {
   id: number

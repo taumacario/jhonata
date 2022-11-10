@@ -39,6 +39,11 @@ createServer({
         },
         {
           id:6,
+          name: 'Recomendações',
+          url: 'https://pt-br.facebook.com/'
+        },
+        {
+          id:7,
           name: 'Contato',
           url: 'https://pt-br.facebook.com/'
         }
@@ -180,7 +185,7 @@ createServer({
         {
           id:1,
           icon: quotesImg,
-          deposition: '1 O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
+          deposition: 'O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
           name: 'Tauana Macário',
           job: 'Procurando - Socorro Deus',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -188,7 +193,7 @@ createServer({
         {
           id:2,
           icon: quotesImg,
-          deposition: '2 Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
+          deposition: 'Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
           name: 'Tauana Macário',
           job: 'Procurando',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -196,7 +201,7 @@ createServer({
         {
           id:3,
           icon: quotesImg,
-          deposition: '3 O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
+          deposition: 'O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
           name: 'Tauana Macário',
           job: 'Procurando - Socorro Deus',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -204,7 +209,7 @@ createServer({
         {
           id:4,
           icon: quotesImg,
-          deposition: '4 Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
+          deposition: 'Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
           name: 'Tauana Macário',
           job: 'Procurando',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -212,7 +217,7 @@ createServer({
         {
           id:5,
           icon: quotesImg,
-          deposition: '5 O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
+          deposition: 'O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
           name: 'Tauana Macário',
           job: 'Procurando - Socorro Deus',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -220,7 +225,7 @@ createServer({
         {
           id:6,
           icon: quotesImg,
-          deposition: '6 Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
+          deposition: 'Esse é sua melhor qualidade. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito.',
           name: 'Tauana Macário',
           job: 'Procurando',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',
@@ -228,7 +233,7 @@ createServer({
         {
           id:7,
           icon: quotesImg,
-          deposition: '7 O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
+          deposition: 'O Washington está sempre estudando e aprendendo, buscando aprimorar aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de seus objetivos, com foco e organização. Além disso, tecnicamente, no que se propõe a fazer, faz bem feito. Sempre!',
           name: 'Tauana Macário',
           job: 'Procurando - Socorro Deus',
           imageProfile: 'https://www.matsudapet.com.br/blog/wp-content/uploads/2019/08/shutterstock_559799125-compressed.jpg',

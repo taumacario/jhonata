@@ -7,11 +7,6 @@ export const Wrapper = styled.section`
 
 export const Content = styled.div`
   padding-block: 6rem;
-
-  h3 {
-    font-size: 2.8rem;
-    text-align: center;
-  }
 `
 
 export const Figure = styled.figure`

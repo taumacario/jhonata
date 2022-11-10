@@ -1,13 +1,14 @@
 import { Container } from "../Container";
 import { Content, Figure, Wrapper } from "./styles";
 import infinityImg from '../../assets/infinity.png'
+import { TitleSection } from "../TitleSections";
 
 export function Infinity() {
   return (
     <Wrapper>
       <Container>
         <Content>
-          <h3>DevOps</h3>
+          <TitleSection title='DevOps'/>
           <Figure>
             <img src={infinityImg} alt="" />
           </Figure>

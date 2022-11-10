@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -7,13 +6,18 @@ export const GlobalStyle = createGlobalStyle`
     --background-dark: #090E16;
     --background: #1c1232;
 
+    --header-bg: #251641;
+    --header-bg-dark: rgb(15 17 32 / 90%);
+
     --purple: #7B4AE2;
-    --purple-50: #7B4AE280;
-    --purple-10: #7B4AE21A;
+    --purple-50: #4b2e8a;
+    --purple-10: #251744;
 
     --white: #fff;
-    --white-50: #FFFFFF80;
+    --white-50: #8d8999;
     --black: #000;
+
+    scroll-behavior: smooth;
   }
 
   * {

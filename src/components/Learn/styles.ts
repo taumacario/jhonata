@@ -8,10 +8,6 @@ export const Content = styled.div`
   padding-block: 6rem;
   text-align: center;
 
-  h3 {
-    font-size: 2.8rem;
-  }
-
   p{
     display: inline-block;
     margin-top: 3rem;

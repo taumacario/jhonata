@@ -1,5 +1,6 @@
 import { Button } from "../Button";
 import { Container } from "../Container";
+import { TitleSection } from "../TitleSections";
 import { ButtonsContent, Content, Wrapper } from "./styles";
 
 export function Learn() {
@@ -7,7 +8,7 @@ export function Learn() {
     <Wrapper>
       <Container>
         <Content>
-          <h3>O que você vai aprender</h3>
+          <TitleSection title='O que você vai aprender' />
           <p>
             Como assinante do Ignite, você vai ter acesso imediato e 
             ilimitado a todas as trilhas pra escolher a tecnologia mais 

@@ -25,9 +25,9 @@ export function Presentation () {
           <PlayerVideo />
 
           <InnerText>
-            <h3>
+            <h4>
               Assista ao vídeo e descubra como o Jônatan IN vai transformar sua carreira como DevOps
-            </h3>
+            </h4>
             <PresentationList>
               {presentation.map(item => {
                 return (

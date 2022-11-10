@@ -2,8 +2,9 @@ import styled from "styled-components"
 import { CardStyle } from "../Card/styles"
 
 export const Wrapper = styled.div`
+
   .swiper {
-    padding-top: 12rem;
+    padding-top: 14rem;
   }
 
   .swiper-slide {
@@ -51,7 +52,7 @@ export const Header = styled.div`
   align-items: center;
   justify-content: space-between;
   position: absolute;
-  top: 0;
+  top: 1.5rem;
   width: 100%;
 `
 

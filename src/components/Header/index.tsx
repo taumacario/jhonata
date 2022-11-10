@@ -9,18 +9,25 @@ interface Menu {
   name: string;
   url: string;
 }
+interface HeaderProps {
+  growHeader: boolean
+}
 
-export function Header() {
+export function Header({ growHeader} : HeaderProps) {
   const [menu, setMenu] = useState<Menu[]>([])
+  
 
   useEffect(() => {
     api.get('menudata')
       .then(response => setMenu(response.data))
   }, [])
+
+  
+
   return (
-    <Wrapper>
+    <Wrapper className={growHeader ? 'bg' : ''}>
       <Container>
-        <Content>
+        <Content className={growHeader ? 'bg' : ''}>
           <img src={logoImg} alt="Logo do site"/>
 
           <Menu>
