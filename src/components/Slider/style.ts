@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
     border-radius: 0.8rem;
   }
   .swiper-button-prev {
-    right: 7%;
+    right: 8rem;
     left: unset;
   }
   .swiper-button-next {

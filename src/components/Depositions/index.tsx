@@ -28,13 +28,13 @@ export function Depositions() {
   
   
   const settings: SwiperProps = {
-    spaceBetween: 50,
+    spaceBetween: 40,
     slidesPerView: 3,
     navigation: true
   }
 
   return (
-    <Wrapper>
+    <Wrapper id="depositions">
       <Container>
         <Slider 
           title='Depoimentos'

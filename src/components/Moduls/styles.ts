@@ -12,6 +12,10 @@ export const Wrapper = styled.section`
       background-color: var(--purple-10);
       border-color: transparent;
     }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      width: calc(100%/2 - 4rem);
+    }
   }
 `
 

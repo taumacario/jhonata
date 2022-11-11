@@ -15,8 +15,10 @@
     "axios": "^1.1.3",
     "miragejs": "^0.1.45",
     "react": "^18.2.0",
+    "react-active-menu": "^0.0.14",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.8",
     "styled-components": "^5.3.6",
     "styled-icons": "^10.46.0",
     "swiper": "^8.4.4",
@@ -48,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-scroll": "^1.8.4",
     "@types/styled-components": "^5.1.26"
   }
 }

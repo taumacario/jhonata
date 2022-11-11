@@ -5,7 +5,7 @@ import { ButtonsContent, Content, Wrapper } from "./styles";
 
 export function Learn() {
   return(
-    <Wrapper>
+    <Wrapper id="section3">
       <Container>
         <Content>
           <TitleSection title='O que você vai aprender' />

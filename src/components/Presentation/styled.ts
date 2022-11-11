@@ -10,11 +10,20 @@ export const Content = styled.div`
   align-items: center;
   justify-content: center;
   padding-block: 6rem;
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    grid-template-columns: unset;
+    padding-block: 3rem;
+  }
 `
 
 export const InnerText = styled.div`
   h4 {
     font-size: 2.2rem;
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+      text-align: center;
+    }
   }
 `
 
@@ -23,6 +32,10 @@ export const PresentationList = styled.ul`
   flex-wrap: wrap;
   gap: 3rem;
   margin-top: 4rem;
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+      justify-content: center;
+    }
 
   li {
     display: flex;

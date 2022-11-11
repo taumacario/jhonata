@@ -18,7 +18,7 @@ export function Hero () {
   }, [])
 
   return (
-    <Wrapper>
+    <Wrapper id="home">
       <Container>
         <Content>
           <InnerText>

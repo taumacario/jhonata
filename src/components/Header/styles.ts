@@ -33,12 +33,11 @@ export const Menu = styled.ul`
   align-items: center;
   justify-content: space-around;
   gap: 1.7rem;
+  cursor: pointer;
 
-  li:first-child {
-    a {
-      color: var(--purple);
-      font-weight: 600;
-    }
+  .active {
+    color: var(--purple);
+    font-weight: 600;
   }
 `
 

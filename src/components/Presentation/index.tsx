@@ -19,7 +19,7 @@ export function Presentation () {
       .then(response => setPresentation(response.data))
   }, [])
   return (
-    <Wrapper>
+    <Wrapper id="section1">
       <Container>
         <Content>
           <PlayerVideo />

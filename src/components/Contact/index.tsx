@@ -10,7 +10,7 @@ import { BackToTop } from "../BackToTop";
 
 export function Contact() {
   return (
-    <Wrapper>
+    <Wrapper id="contact">
       <Container>
         <TitleSection  title='Vamos conversar!'/>
 

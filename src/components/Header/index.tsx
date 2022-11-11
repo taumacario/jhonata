@@ -1,8 +1,11 @@
-import { Wrapper, Menu, Content } from "./styles"
-import logoImg from '../../assets/logo.svg'
 import { useEffect, useState } from "react"
 import { api } from "../../services/api"
-import { Container } from "../Container";
+
+import {Link} from 'react-scroll'
+
+import { Container } from "../Container"
+import { Wrapper, Menu, Content } from "./styles"
+import logoImg from '../../assets/logo.svg'
 
 interface Menu {
   id: number;
@@ -15,7 +18,6 @@ interface HeaderProps {
 
 export function Header({ growHeader} : HeaderProps) {
   const [menu, setMenu] = useState<Menu[]>([])
-  
 
   useEffect(() => {
     api.get('menudata')
@@ -34,7 +36,16 @@ export function Header({ growHeader} : HeaderProps) {
             {menu.map(item => {
               return (
                 <li key={item.id}>
-                  <a href={item.url}>{item.name}</a>
+                  <Link
+                    activeClass="active"
+                    to={item.url}
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={400}
+                  >
+                    {item.name}
+                  </Link>
                 </li>
               )
             })}

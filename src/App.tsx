@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-
 import { Contact } from "./components/Contact";
 import { Depositions } from "./components/Depositions";
 import { DetailsBox } from "./components/DetailsBox";
@@ -18,7 +17,7 @@ export function App() {
   
   useEffect(() => {
     function positionScroll(){
-      if(window.scrollY > 20){
+      if(window.scrollY > 30){
         setGrowHeader(true)
       } else {
         setGrowHeader(false)

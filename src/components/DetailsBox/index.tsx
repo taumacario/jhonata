@@ -9,7 +9,7 @@ import projectsImg from '../../assets/projects.svg'
 
 export function DetailsBox() {
   return (
-    <Wrapper>
+    <Wrapper id="section2">
       <Container>
         <Content>
 

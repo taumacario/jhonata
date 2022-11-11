@@ -15,37 +15,37 @@ createServer({
         {
           id:1,
           name: 'Home',
-          url: 'https://pt-br.facebook.com/'
+          url: 'home'
         },
         {
           id:2,
-          name: 'Sobre mim',
-          url: 'https://pt-br.facebook.com/'
+          name: 'Ses 01',
+          url: 'section1'
         },
         {
           id:3,
-          name: 'Portifolio',
-          url: 'https://pt-br.facebook.com/'
+          name: 'Ses 02',
+          url: 'section2'
         },
         {
           id:4,
-          name: 'Skils',
-          url: 'https://pt-br.facebook.com/'
+          name: 'Ses 03',
+          url: 'section3'
         },
         {
           id:5,
-          name: 'Carreira',
-          url: 'https://pt-br.facebook.com/'
+          name: 'Ses 04',
+          url: 'section4'
         },
         {
           id:6,
-          name: 'Recomendações',
-          url: 'https://pt-br.facebook.com/'
+          name: 'Depoimentos',
+          url: 'depositions'
         },
         {
           id:7,
           name: 'Contato',
-          url: 'https://pt-br.facebook.com/'
+          url: 'contact'
         }
       ]
     })
