@@ -12,7 +12,7 @@ export function ModulsCard({ title, description, tag, image } : ModulsCardProps)
   return (
     <S.WrapperCard>
       <S.Header>
-        <h3>{title}</h3>
+        <h5>{title}</h5>
         <p>{description}</p>
       </S.Header>
       <S.Body>

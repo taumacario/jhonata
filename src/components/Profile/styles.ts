@@ -12,6 +12,7 @@ export const ProfileImage = styled.figure`
   overflow: hidden;
   width: 7rem;
   height: 7rem;
+  flex: none;
 
   img{
     object-fit: cover;
@@ -21,10 +22,20 @@ export const ProfileImage = styled.figure`
 `
 export const ProfileInfo = styled.div``
 
-export const ProfileName = styled.h5``
+export const ProfileName = styled.h6`
+  font-size: 2rem;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 1.6rem;
+  }
+`
 
 export const ProfileJob = styled.p`
   margin-top: 0.5rem;
   color: var(--purple-50);
   font-weight: 600;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    font-size: 1.4rem;
+  }
 `

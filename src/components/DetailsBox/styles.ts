@@ -29,7 +29,6 @@ export const Content = styled.div`
   width: 100%;
   max-width: 700px;
   margin: 0 auto;
-
 `
 export const BoxOne = styled.div`
   display: flex;
@@ -38,24 +37,39 @@ export const BoxOne = styled.div`
   gap: 8rem;
   width: 100%;
 
+  @media (min-width: 320px) and (max-width: 767px) {
+   flex-wrap: wrap;
+   gap: 3rem;
+  }
+
   ${CardStyle} {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    //flex: 1;
+  } 
+  
+  img {
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: 5rem;
+      height: 5rem;
+    }
   }
 
   p{
     color: var(--white);
     font-weight: 600;
     font-size: 2rem;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 1.6rem;
+    }
   }
 `
 
 export const BoxTwo = styled.div`
   margin-top: 3rem;
-
 `
 
 export const TextBoxTwo = styled.div`
@@ -63,7 +77,10 @@ export const TextBoxTwo = styled.div`
   align-items: center;
   justify-content: center;
   gap: 15rem;
-  //justify-content: space-between;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+   gap: 2rem;
+  }
 `
 
 export const TextContent = styled.div`
@@ -77,5 +94,9 @@ export const TextContent = styled.div`
   p{
     font-size: 1.8rem;
     font-weight: 600;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 1.6rem;
+    }
   }
 `

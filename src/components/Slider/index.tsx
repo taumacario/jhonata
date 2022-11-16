@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import { Header, Title, Wrapper } from './style';
+import { Header, Wrapper } from './style';
 
 import { Card } from "../Card";
 import { DepoCard } from "../DepoCard";
@@ -27,7 +27,7 @@ interface SliderProps {
 }
 
 
-export function Slider( { title, depositions, settings }: SliderProps) {
+export function Slider( { depositions, settings }: SliderProps) {
 
   return (
     <Wrapper>  

@@ -10,6 +10,11 @@ export const Content = styled.div`
   align-items: flex-end;
   justify-content: center;
   gap: 5rem;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+      flex-direction: column;
+      align-items: center;
+    }
 `
 export const  EmailContact = styled.div`
   a {

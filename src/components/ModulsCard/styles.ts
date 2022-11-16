@@ -9,8 +9,20 @@ export const WrapperCard = styled.div`
 `
 
 export const Header = styled.div`
+  h5 {
+    font-size: 2.2rem;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 1.8rem;
+    }
+  }
+
   p {
     margin-top: 1rem;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 1.4rem;
+    }
   }
 `
 export const Body = styled.div`
@@ -23,6 +35,10 @@ export const Tag = styled.span`
   background: var(--purple-10);
   border-radius: 0.8rem;
   padding: 1rem 2rem;
+
+  @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 1.4rem;
+    }
 `
 
 export const Figure = styled.figure`

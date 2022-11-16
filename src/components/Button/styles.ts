@@ -28,4 +28,8 @@ export const Button = styled.button<ButtonProps>`
     background-color: var(--purple-10);
     border-color: transparent;
   }
+
+  @media (min-width: 320px) and (max-width: 767px) {
+    margin: auto;
+  }
 `

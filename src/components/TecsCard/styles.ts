@@ -1,10 +1,7 @@
 import styled from "styled-components";
 import { CardStyle } from "../Card/styles";
-import {Tag, Figure} from "../ModulsCard/styles"
+import { Tag } from "../ModulsCard/styles"
 
-export const Wrapper = styled.section`
-  width: 100%;
-`
 
 export const Content = styled.div`
   padding-block: 6rem;
@@ -17,6 +14,10 @@ export const Content = styled.div`
   ${CardStyle} {
     width: calc(100%/2 - 5rem);
     transition: background 0.3s;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      width: calc(100% - 2rem);
+    }
   }
 
   ${Tag} {

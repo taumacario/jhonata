@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 export const Wrapper = styled.section`
   width: 100%;
-  margin-top: 10rem;
+  padding-block: 5rem;
 `
 
 export const Content = styled.div`
-  padding-block: 6rem;
+padding-block: 5rem;
 `
 
 export const Figure = styled.figure`
   max-width: 75rem;
-  margin-top: 6.5rem;
+  margin-top: 5rem;
   margin-inline: auto;
 
   img {

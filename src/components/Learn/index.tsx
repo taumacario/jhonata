@@ -1,5 +1,6 @@
 import { Button } from "../Button";
 import { Container } from "../Container";
+import { Moduls } from "../Moduls";
 import { TitleSection } from "../TitleSections";
 import { ButtonsContent, Content, Wrapper } from "./styles";
 
@@ -20,8 +21,8 @@ export function Learn() {
             <Button a link="https://pt-br.facebook.com/" title={'Intermediário'} />
             <Button a link="https://pt-br.facebook.com/" title={'Avançado'} />
           </ButtonsContent>
-
         </Content>
+        <Moduls />
       </Container>
     </Wrapper>
   );

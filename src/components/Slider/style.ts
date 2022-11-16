@@ -5,6 +5,11 @@ export const Wrapper = styled.div`
 
   .swiper {
     padding-top: 14rem;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      overflow: unset;
+      padding-top: 10rem;
+    }
   }
 
   .swiper-slide {
@@ -12,6 +17,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     height: auto;  
   }
+
   .swiper-button-prev,
   .swiper-button-next {
     width: 6rem;
@@ -20,14 +26,21 @@ export const Wrapper = styled.div`
     color: #412c7b;
     border: 1px solid;
     border-radius: 0.8rem;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      display: none;
+    }
   }
+
   .swiper-button-prev {
     right: 8rem;
     left: unset;
   }
+
   .swiper-button-next {
     right: 0;
   }
+
   .swiper-button-disabled {
     background-color: #15152a;
   }
@@ -54,8 +67,4 @@ export const Header = styled.div`
   position: absolute;
   top: 1.5rem;
   width: 100%;
-`
-
-export const Title = styled.h3`
-  font-size: 2.8rem;
 `

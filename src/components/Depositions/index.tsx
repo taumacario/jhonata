@@ -28,9 +28,21 @@ export function Depositions() {
   
   
   const settings: SwiperProps = {
-    spaceBetween: 40,
-    slidesPerView: 3,
-    navigation: true
+    navigation: true,
+    breakpoints:{
+      320: {
+        slidesPerView: 1.1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+    }
   }
 
   return (
