@@ -1,7 +1,6 @@
-import {  BoxOne, BoxTwo, Content, TextBoxTwo, TextContent, Wrapper } from "./styles";
-import { Card } from "../Card";
-
 import { Container } from "../Container";
+import { Card } from "../Card";
+import {  BoxOne, BoxTwo, Content, TextBoxTwo, TextContent, Wrapper } from "./styles";
 
 import codeImg from '../../assets/code.svg'
 import designImg from '../../assets/design.svg'
@@ -12,7 +11,6 @@ export function DetailsBox() {
     <Wrapper id="section2">
       <Container>
         <Content>
-
           <BoxOne>
             <Card> 
               <img src={codeImg} alt="" />
@@ -51,7 +49,6 @@ export function DetailsBox() {
 
             </Card>
           </BoxTwo>
-
         </Content>
       </Container>
     </Wrapper>

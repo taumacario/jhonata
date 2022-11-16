@@ -12,9 +12,9 @@ export const Content = styled.div`
   gap: 5rem;
 
   @media (min-width: 320px) and (max-width: 767px) {
-      flex-direction: column;
-      align-items: center;
-    }
+    flex-direction: column;
+    align-items: center;
+  }
 `
 export const  EmailContact = styled.div`
   a {

@@ -9,6 +9,6 @@ export const Title = styled.h3<TitleProps>`
   text-align: ${props => props.alignCenter ? "center" : "left"};
 
   @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 2.4rem;
-    }
+    font-size: 2.4rem;
+  }
 `

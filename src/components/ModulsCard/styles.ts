@@ -37,8 +37,8 @@ export const Tag = styled.span`
   padding: 1rem 2rem;
 
   @media (min-width: 320px) and (max-width: 767px) {
-      font-size: 1.4rem;
-    }
+    font-size: 1.4rem;
+  }
 `
 
 export const Figure = styled.figure`

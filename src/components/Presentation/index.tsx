@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { api } from "../../services/api";
 import { Container } from "../Container";
 import { PlayerVideo } from "../Player";
 import { PresentationList, Wrapper, Content, InnerText } from "./styled";
+import presentImg from '../../assets/presentationicon.svg'
 
 interface Presentation {
   id: number;
@@ -11,12 +11,38 @@ interface Presentation {
   url: string;
 }
 
+const DATA = [
+  {
+   id:1,
+   icon: presentImg,
+   name: 'Desafios práticos com aplicações reais',
+   url: 'https://pt-br.facebook.com/'
+  },
+  {
+    id:2,
+    icon: presentImg,
+    name: 'Comunidade exclusiva de alunos e alunas',
+    url: 'https://pt-br.facebook.com/'
+  },
+  {
+    id:3,
+    icon: presentImg,
+    name: 'Plataforma completa que une todo ecossistema',
+    url: 'https://pt-br.facebook.com/'
+  },
+  {
+    id:4,
+    icon: presentImg,
+    name: 'Fórum exclusivo para dúvidas técnicas',
+    url: 'https://pt-br.facebook.com/'
+  }
+]
+
 export function Presentation () {
   const [presentation, setPresentation] = useState<Presentation[]>([])
 
   useEffect(() => {
-    api.get('presentationdata')
-      .then(response => setPresentation(response.data))
+    setPresentation(DATA)
   }, [])
   return (
     <Wrapper id="section1">

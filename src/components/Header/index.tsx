@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react"
-import { api } from "../../services/api"
-
 import {Link} from 'react-scroll'
-
 import { Container } from "../Container"
 import { Wrapper, Menu, Content, MenuHamburguer } from "./styles"
 import logoImg from '../../assets/logo.svg'
@@ -13,14 +10,51 @@ interface Menu {
   url: string;
 }
 
+const DATA = [
+  {
+    id:1,
+    name: 'Home',
+    url: 'home'
+  },
+  {
+    id:2,
+    name: 'Ses 01',
+    url: 'section1'
+  },
+  {
+    id:3,
+    name: 'Ses 02',
+    url: 'section2'
+  },
+  {
+    id:4,
+    name: 'Ses 03',
+    url: 'section3'
+  },
+  {
+    id:5,
+    name: 'Ses 04',
+    url: 'section4'
+  },
+  {
+    id:6,
+    name: 'Depoimentos',
+    url: 'depositions'
+  },
+  {
+    id:7,
+    name: 'Contato',
+    url: 'contact'
+  }
+]
+
 export function Header() {
   const [menu, setMenu] = useState<Menu[]>([])
   const [open, setOpen] = useState(false)
   const [growHeader, setGrowHeader] = useState(false)
 
   useEffect(() => {
-    api.get('menudata')
-      .then(response => setMenu(response.data))
+    setMenu(DATA)
   }, [])
 
   useEffect(() => {

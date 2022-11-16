@@ -15,7 +15,7 @@ export function DepoCard({ icon, deposition, name, job, imageProfile } : DepoCar
     <S.WrapperCard>
       <S.Header>
         <S.Figure src={icon} alt="aspas" />
-
+        
         <S.Depo>
         {deposition}
         </S.Depo>     

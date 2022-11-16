@@ -9,7 +9,6 @@ interface ProfileProps {
 export function Profile({imageProfile, name, job} : ProfileProps) {
   return (
     <S.Profile>
-
       <S.ProfileImage>
         <img src={imageProfile} alt="" />
       </S.ProfileImage>
@@ -22,7 +21,6 @@ export function Profile({imageProfile, name, job} : ProfileProps) {
           {job}
         </S.ProfileJob>
       </S.ProfileInfo>
-
     </S.Profile>
   );
 }

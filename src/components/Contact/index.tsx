@@ -26,9 +26,7 @@ export function Contact() {
         </Content>
 
         <BackToTop />
-
       </Container>
-
     </Wrapper>
   );
 }

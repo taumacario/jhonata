@@ -41,7 +41,9 @@ export const Menu = styled.ul`
   cursor: pointer;
 
   a{
-    color: var(--white);
+    @media (min-width: 320px) and (max-width: 767px) {
+      color: var(--white);
+    }
   }
 
   .active {
